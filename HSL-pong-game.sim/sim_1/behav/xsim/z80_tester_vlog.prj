@@ -1,0 +1,49 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/address_latch.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/address_mux.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/address_pins.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_bit_select.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_control.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_core.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_flags.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_mux_2.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_mux_2z.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_mux_3z.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_mux_4.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_mux_8.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_prep_daa.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_select.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_shifter_core.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/alu_slice.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/bus_control.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/bus_switch.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/clk_delay.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/control_pins_n.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/data_pins.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/data_switch.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/data_switch_mask.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/decode_state.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/execute.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/inc_dec.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/inc_dec_2bit.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/interrupts.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/ir.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/Lab5Verilog/memory.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/memory_ifc.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/pin_control.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/pla_decode.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/reg_control.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/reg_file.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/reg_latch.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/resets.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/sequencer.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/imports/x/z80_top_direct_n.v" \
+"../../../../../../hw-syn-lab-project/Z80.srcs/sources_1/new/z80_tester.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
