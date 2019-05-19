@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/pepe/Desktop/HSL/HSL-pong-game/HSL-pong-game.sim/sim_1/behav/xsim/xsim.dir/z80_tester_behav/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Fri May 10 10:50:03 2019" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Fri May 10 11:41:56 2019" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2018.3 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2405991" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "f505bbfc-d6da-42d2-8e22-1be3d7ea5c65" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "f3e8b2c3f3b041318dd7dbc38cad659f" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "4" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "5" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i5-8210Y CPU @ 1.60GHz" -context "user_environment"
@@ -26,7 +26,7 @@ webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command
 webtalk_add_data -client xsim -key trace_waveform -value "true" -context "xsim\\usage"
 webtalk_add_data -client xsim -key runtime -value "1 us" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "1" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Time -value "0.20_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "12176_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 884230865 -regid "" -xml C:/Users/pepe/Desktop/HSL/HSL-pong-game/HSL-pong-game.sim/sim_1/behav/xsim/xsim.dir/z80_tester_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/pepe/Desktop/HSL/HSL-pong-game/HSL-pong-game.sim/sim_1/behav/xsim/xsim.dir/z80_tester_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/pepe/Desktop/HSL/HSL-pong-game/HSL-pong-game.sim/sim_1/behav/xsim/xsim.dir/z80_tester_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Time -value "0.14_sec" -context "xsim\\usage"
+webtalk_add_data -client xsim -key Simulation_Memory -value "12148_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 3968227737 -regid "" -xml C:/Users/pepe/Desktop/HSL/HSL-pong-game/HSL-pong-game.sim/sim_1/behav/xsim/xsim.dir/z80_tester_behav/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/pepe/Desktop/HSL/HSL-pong-game/HSL-pong-game.sim/sim_1/behav/xsim/xsim.dir/z80_tester_behav/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/pepe/Desktop/HSL/HSL-pong-game/HSL-pong-game.sim/sim_1/behav/xsim/xsim.dir/z80_tester_behav/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

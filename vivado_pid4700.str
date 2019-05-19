@@ -1,0 +1,319 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 4700
+License: Customer
+
+Current time: 	Sun May 19 18:17:48 ICT 2019
+Time zone: 	Indochina Time (Asia/Bangkok)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1200
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 11 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	pepe
+User home directory: C:/Users/pepe
+User working directory: C:/Users/pepe/Desktop/HSL/HSL-pong-game
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/pepe/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/pepe/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/pepe/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/pepe/Desktop/HSL/HSL-pong-game/vivado.log
+Vivado journal file location: 	C:/Users/pepe/Desktop/HSL/HSL-pong-game/vivado.jou
+Engine tmp dir: 	C:/Users/pepe/Desktop/HSL/HSL-pong-game/.Xil/Vivado-4700-DESKTOP-T2GRTRU
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 546 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\pepe\Desktop\HSL\HSL-pong-game\HSL-pong-game.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/pepe/Desktop/HSL/HSL-pong-game/HSL-pong-game.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/pepe/Desktop/HSL/HSL-pong-game/HSL-pong-game.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 567 MB. GUI used memory: 48 MB. Current time: 5/19/19, 6:17:50 PM ICT
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 96 MB (+98100kb) [00:00:18]
+// [Engine Memory]: 622 MB (+501090kb) [00:00:18]
+// [GUI Memory]: 107 MB (+6479kb) [00:00:19]
+// [Engine Memory]: 656 MB (+2374kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  4660 ms.
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 682.305 ; gain = 118.035 
+// Project name: HSL-pong-game; location: C:/Users/pepe/Desktop/HSL/HSL-pong-game; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (top.v) elapsed time: 0.2s
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, keyboard (top.v)]", 4, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, keyboard (top.v), uut : PS2Receiver (PS2Receiver.v)]", 5, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// [Engine Memory]: 689 MB (+512kb) [00:00:53]
+// HMemoryUtils.trashcanNow. Engine heap size: 689 MB. GUI used memory: 58 MB. Current time: 5/19/19, 6:18:30 PM ICT
+// Elapsed time: 239 seconds
+selectCodeEditor("top.v", 368, 386); // cl (w, cp)
+// Elapsed time: 12 seconds
+selectCodeEditor("top.v", 236, 448); // cl (w, cp)
+selectCodeEditor("top.v", 120, 128); // cl (w, cp)
+selectCodeEditor("top.v", 120, 128, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("top.v", 96, 105); // cl (w, cp)
+selectCodeEditor("top.v", 81, 113); // cl (w, cp)
+selectCodeEditor("top.v", 81, 113, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("top.v", 239, 239); // cl (w, cp)
+selectCodeEditor("top.v", 114, 190); // cl (w, cp)
+selectCodeEditor("top.v", 138, 182); // cl (w, cp)
+selectCodeEditor("top.v", 138, 182, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 50 seconds
+selectCodeEditor("top.v", 345, 288, false, false, false, true, false); // cl (w, cp) - Popup Trigger
+// [GUI Memory]: 115 MB (+2746kb) [00:08:46]
+// Elapsed time: 420 seconds
+selectCodeEditor("top.v", 266, 289); // cl (w, cp)
+// Elapsed time: 233 seconds
+selectCodeEditor("top.v", 474, 273); // cl (w, cp)
+selectCodeEditor("top.v", 213, 286); // cl (w, cp)
+// Elapsed time: 51 seconds
+selectCodeEditor("top.v", 199, 315); // cl (w, cp)
+// Elapsed time: 62 seconds
+selectCodeEditor("top.v", 444, 146); // cl (w, cp)
+// Elapsed time: 131 seconds
+selectCodeEditor("top.v", 170, 319); // cl (w, cp)
+selectCodeEditor("top.v", 170, 319, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("top.v", 64, 322); // cl (w, cp)
+selectCodeEditor("top.v", 64, 322, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("top.v", 169, 322); // cl (w, cp)
+selectCodeEditor("top.v", 394, 248); // cl (w, cp)
+selectCodeEditor("top.v", 350, 302); // cl (w, cp)
+selectCodeEditor("top.v", 196, 135); // cl (w, cp)
+selectCodeEditor("top.v", 196, 135, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("top.v", 303, 271); // cl (w, cp)
+selectCodeEditor("top.v", 292, 304); // cl (w, cp)
+selectCodeEditor("top.v", 308, 433); // cl (w, cp)
+selectCodeEditor("top.v", 297, 452); // cl (w, cp)
+selectCodeEditor("top.v", 278, 430); // cl (w, cp)
+selectCodeEditor("top.v", 32, 243, true, false, false, false, false); // cl (w, cp) - Shift Key
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top.v", 205, 484); // cl (w, cp)
+selectCodeEditor("top.v", 214, 211); // cl (w, cp)
+selectCodeEditor("top.v", 173, 357); // cl (w, cp)
+selectCodeEditor("top.v", 345, 369); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top.v", 200, 136); // cl (w, cp)
+selectCodeEditor("top.v", 303, 153); // cl (w, cp)
+selectCodeEditor("top.v", 183, 100); // cl (w, cp)
+selectCodeEditor("top.v", 178, 307); // cl (w, cp)
+selectCodeEditor("top.v", 65, 138); // cl (w, cp)
+selectCodeEditor("top.v", 65, 138, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 50 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top.v", 353, 314); // cl (w, cp)
+selectCodeEditor("top.v", 346, 278); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectCodeEditor("top.v", 209, 284); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 227 seconds
+selectCodeEditor("top.v", 297, 283); // cl (w, cp)
+// Elapsed time: 58 seconds
+selectCodeEditor("top.v", 83, 291); // cl (w, cp)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "top.v", 'v'); // cl (w, cp)
+selectCodeEditor("top.v", 357, 406); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top.v", 453, 309); // cl (w, cp)
+selectCodeEditor("top.v", 147, 279); // cl (w, cp)
+selectCodeEditor("top.v", 106, 135); // cl (w, cp)
+typeControlKey((HResource) null, "top.v", 'c'); // cl (w, cp)
+selectCodeEditor("top.v", 99, 290); // cl (w, cp)
+typeControlKey((HResource) null, "top.v", 'v'); // cl (w, cp)
+selectCodeEditor("top.v", 245, 405); // cl (w, cp)
+selectCodeEditor("top.v", 144, 289); // cl (w, cp)
+selectCodeEditor("top.v", 320, 405); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top.v", 205, 154); // cl (w, cp)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top.v", 456, 296); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 155, 136); // cl (w, cp)
+// Elapsed time: 25 seconds
+typeControlKey((HResource) null, "top.v", 'v'); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 692 MB. GUI used memory: 57 MB. Current time: 5/19/19, 6:48:35 PM ICT
+// Elapsed time: 38 seconds
+selectCodeEditor("top.v", 227, 299); // cl (w, cp)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v)]", 3, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("z80_tester.v", 491, 406); // cl (w, cp)
+selectCodeEditor("z80_tester.v", 631, 424); // cl (w, cp)
+selectCodeEditor("z80_tester.v", 404, 356); // cl (w, cp)
+selectCodeEditor("z80_tester.v", 404, 356); // cl (w, cp)
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "z80_tester.v", 2); // k (j, cp)
+selectCodeEditor("z80_tester.v", 163, 243); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cp)
+selectCodeEditor("top.v", 323, 143); // cl (w, cp)
+typeControlKey((HResource) null, "top.v", 'c'); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "z80_tester.v", 2); // k (j, cp)
+typeControlKey((HResource) null, "z80_tester.v", 'v'); // cl (w, cp)
+selectCodeEditor("z80_tester.v", 239, 334); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k (j, cp)
+selectCodeEditor("top.v", 320, 139); // cl (w, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "z80_tester.v", 2); // k (j, cp)
+selectCodeEditor("z80_tester.v", 528, 327); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("z80_tester.v", 541, 366); // cl (w, cp)
+selectCodeEditor("z80_tester.v", 532, 396); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), mem_map : memory_map (memory_map.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), mem_map : memory_map (memory_map.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("memory_map.v", 264, 332); // cl (w, cp)
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v)]", 8, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v), vga : vga_test (vga.v)]", 9, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v), vga : vga_test (vga.v)]", 9, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("vga.v", 142, 291); // cl (w, cp)
+// Elapsed time: 260 seconds
+selectCodeEditor("vga.v", 487, 340); // cl (w, cp)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v)]", 8, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v)]", 8); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v), vga : vga_test (vga.v)]", 9, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v), vga : vga_test (vga.v)]", 9, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("vga.v", 517, 517); // cl (w, cp)
+selectCodeEditor("vga.v", 635, 313); // cl (w, cp)
+selectCodeEditor("vga.v", 424, 345); // cl (w, cp)
+selectCodeEditor("vga.v", 424, 345, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("vga.v", 273, 410); // cl (w, cp)
+selectCodeEditor("vga.v", 273, 410, false, false, false, false, true); // cl (w, cp) - Double Click
+// Elapsed time: 467 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), mem_map : memory_map (memory_map.v)]", 7, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), mem_map : memory_map (memory_map.v)]", 7, false, false, false, false, false, true); // B (D, cp) - Double Click
+// Elapsed time: 44 seconds
+selectCodeEditor("memory_map.v", 128, 241); // cl (w, cp)
+// Elapsed time: 221 seconds
+selectCodeEditor("memory_map.v", 205, 153); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 128 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), mem : memory (memory.v)]", 6, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), mem : memory (memory.v)]", 6, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("memory.v", 267, 338); // cl (w, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), cpu : z80_top_direct_n (z80_top_direct_n.v)]", 4, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), cpu : z80_top_direct_n (z80_top_direct_n.v), interrupts_ : interrupts (interrupts.v)]", 8, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("z80_top_direct_n.v", 223, 378); // cl (w, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), cpu : z80_top_direct_n (z80_top_direct_n.v)]", 4); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v)]", 3, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v)]", 3, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("z80_tester.v", 188, 366); // cl (w, cp)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system (system.v)]", 4); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v)]", 3); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), mem : memory (memory.v)]", 6, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, z80_tester (z80_tester.v), mem : memory (memory.v)]", 6, false, false, false, false, false, true); // B (D, cp) - Double Click
+selectCodeEditor("memory.v", 303, 351); // cl (w, cp)
+selectCodeEditor("memory.v", 300, 441); // cl (w, cp)
+selectCodeEditor("memory.v", 305, 421); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 692 MB. GUI used memory: 55 MB. Current time: 5/19/19, 7:18:36 PM ICT
