@@ -2,10 +2,10 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon May 20 13:05:54 2019
-# Process ID: 8588
+# Start of session at: Sun May 19 18:17:22 2019
+# Process ID: 4700
 # Current directory: C:/Users/pepe/Desktop/HSL/HSL-pong-game
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8624 C:\Users\pepe\Desktop\HSL\HSL-pong-game\HSL-pong-game.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5972 C:\Users\pepe\Desktop\HSL\HSL-pong-game\HSL-pong-game.xpr
 # Log file: C:/Users/pepe/Desktop/HSL/HSL-pong-game/vivado.log
 # Journal file: C:/Users/pepe/Desktop/HSL/HSL-pong-game\vivado.jou
 #-----------------------------------------------------------
@@ -16,4 +16,8 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
-open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 678.824 ; gain = 110.473
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 682.305 ; gain = 118.035
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 19 20:24:45 2019...
